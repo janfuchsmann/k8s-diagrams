@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-06-04T14:27:12.449Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="-IUKdUemKC2jiuUhj9vC" version="18.2.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-04T15:45:32.689Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="Ezd2dtoKnk6SuTNy2MK4" version="18.2.0" type="github">
   <diagram id="3nY1ylGV_lQYjKIu0iRG" name="Page-1">
     <mxGraphModel dx="2466" dy="1536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="8mNeVheC6rkzySwEhIPX-20" value="Composition - pimcore-datadirector.yaml" style="swimlane;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;swimlaneFillColor=#1E1E1E;" vertex="1" parent="1">
-          <mxGeometry x="870" width="310" height="420" as="geometry">
+          <mxGeometry x="870" width="310" height="430" as="geometry">
             <mxRectangle x="1020" y="40" width="130" height="23" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -13,7 +13,7 @@
           <mxGeometry y="20" width="310" height="400" as="geometry" />
         </mxCell>
         <mxCell id="8mNeVheC6rkzySwEhIPX-10" value="Application Claim" style="swimlane;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;swimlaneFillColor=#1E1E1E;" vertex="1" parent="1">
-          <mxGeometry x="-40" y="110" width="280" height="290" as="geometry">
+          <mxGeometry x="-40" y="110" width="280" height="300" as="geometry">
             <mxRectangle x="230" y="-10" width="130" height="23" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
