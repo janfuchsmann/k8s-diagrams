@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-06-04T13:22:00.188Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="cvR8BQIvWQeh3dc7Am7s" version="18.2.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-04T13:34:01.988Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="OtrxWA2ErDV-d-lYSr8x" version="18.2.0" type="github">
   <diagram id="3nY1ylGV_lQYjKIu0iRG" name="Page-1">
     <mxGraphModel dx="2466" dy="1536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="8mNeVheC6rkzySwEhIPX-20" value="Composition - pimcore-datadirector.yaml" style="swimlane;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;swimlaneFillColor=#1E1E1E;" vertex="1" parent="1">
-          <mxGeometry x="1020" y="-100" width="310" height="420" as="geometry">
+          <mxGeometry x="870" width="310" height="420" as="geometry">
             <mxRectangle x="1020" y="40" width="130" height="23" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -13,7 +13,7 @@
           <mxGeometry y="20" width="310" height="400" as="geometry" />
         </mxCell>
         <mxCell id="8mNeVheC6rkzySwEhIPX-10" value="Application Claim" style="swimlane;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;swimlaneFillColor=#1E1E1E;" vertex="1" parent="1">
-          <mxGeometry x="-40" y="220" width="280" height="290" as="geometry">
+          <mxGeometry x="-40" y="110" width="280" height="290" as="geometry">
             <mxRectangle x="230" y="-10" width="130" height="23" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -21,7 +21,7 @@
           <mxGeometry y="20" width="280" height="270" as="geometry" />
         </mxCell>
         <mxCell id="8mNeVheC6rkzySwEhIPX-13" value="Composition Definition" style="swimlane;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;swimlaneFillColor=#1E1E1E;" vertex="1" parent="1">
-          <mxGeometry x="390" y="-60" width="310" height="340" as="geometry">
+          <mxGeometry x="370" y="110" width="310" height="340" as="geometry">
             <mxRectangle x="230" y="-10" width="130" height="23" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -29,8 +29,8 @@
           <mxGeometry y="25" width="310" height="315" as="geometry" />
         </mxCell>
         <mxCell id="8mNeVheC6rkzySwEhIPX-18" value="Composition - pimcore-default.yaml" style="swimlane;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;swimlaneFillColor=#1E1E1E;" vertex="1" parent="1">
-          <mxGeometry x="890" y="140" width="380" height="660" as="geometry">
-            <mxRectangle x="1020" y="40" width="130" height="23" as="alternateBounds" />
+          <mxGeometry x="780" y="170" width="380" height="660" as="geometry">
+            <mxRectangle x="890" y="140" width="130" height="23" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="8mNeVheC6rkzySwEhIPX-17" value="&lt;div style=&quot;background-color: rgb(30, 30, 30); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 12px; line-height: 18px;&quot;&gt;&lt;div style=&quot;color: rgb(212, 212, 212);&quot;&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;apiVersion&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;: &lt;/span&gt;&lt;span style=&quot;color: #ce9178;&quot;&gt;apiextensions.crossplane.io/v1&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(212, 212, 212);&quot;&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;kind&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;: &lt;/span&gt;&lt;span style=&quot;color: #ce9178;&quot;&gt;Composition&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(212, 212, 212);&quot;&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;metadata&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;:&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(212, 212, 212);&quot;&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;&amp;nbsp; name&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;: &lt;/span&gt;&lt;span style=&quot;color: #ce9178;&quot;&gt;app-pimcore-default&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(212, 212, 212);&quot;&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;&amp;nbsp; labels&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;:&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(86, 156, 214);&quot;&gt;&amp;nbsp; &amp;nbsp; type&lt;/span&gt;&lt;span style=&quot;color: rgb(212, 212, 212);&quot;&gt;: &lt;/span&gt;&lt;font color=&quot;#ff00ff&quot;&gt;pimcore-default&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(86, 156, 214);&quot;&gt;&amp;nbsp; &amp;nbsp; location&lt;/span&gt;&lt;span style=&quot;color: rgb(212, 212, 212);&quot;&gt;: &lt;/span&gt;&lt;font color=&quot;#ff00ff&quot;&gt;aws&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(212, 212, 212);&quot;&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;spec&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;:&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(212, 212, 212);&quot;&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;&amp;nbsp; compositeTypeRef&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;:&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(212, 212, 212);&quot;&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;&amp;nbsp; &amp;nbsp; apiVersion&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;: &lt;/span&gt;&lt;span style=&quot;color: #ce9178;&quot;&gt;blackbit.io/v1alpha1&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(212, 212, 212);&quot;&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;&amp;nbsp; &amp;nbsp; kind&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;: &lt;/span&gt;&lt;span style=&quot;color: #ce9178;&quot;&gt;App&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(212, 212, 212);&quot;&gt;&lt;span style=&quot;color: rgb(86, 156, 214);&quot;&gt;&amp;nbsp; resources&lt;/span&gt;:&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(212, 212, 212);&quot;&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;&amp;nbsp; - &lt;/span&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;name&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;: &lt;/span&gt;&lt;span style=&quot;color: #ce9178;&quot;&gt;deployment&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(212, 212, 212);&quot;&gt;&lt;div style=&quot;line-height: 18px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;&amp;nbsp; &amp;nbsp; base&lt;/span&gt;:&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; apiVersion&lt;/span&gt;: &lt;span style=&quot;color: #ce9178;&quot;&gt;kubernetes.crossplane.io/v1alpha1&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; kind&lt;/span&gt;: &lt;span style=&quot;color: #ce9178;&quot;&gt;Object&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; spec&lt;/span&gt;:&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; forProvider&lt;/span&gt;:&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; manifest&lt;/span&gt;:&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; apiVersion&lt;/span&gt;: &lt;span style=&quot;color: #ce9178;&quot;&gt;apps/v1&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; kind&lt;/span&gt;: &lt;span style=&quot;color: #ce9178;&quot;&gt;Deployment&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #ce9178;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; [...]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;line-height: 18px;&quot;&gt;&amp;nbsp; - &lt;span style=&quot;color: #569cd6;&quot;&gt;name&lt;/span&gt;: &lt;span style=&quot;color: #ce9178;&quot;&gt;service&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 18px;&quot;&gt;&lt;span style=&quot;color: #ce9178;&quot;&gt;&amp;nbsp; &amp;nbsp; [...]&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 18px;&quot;&gt;&lt;div style=&quot;line-height: 18px;&quot;&gt;&amp;nbsp; - &lt;span style=&quot;color: #569cd6;&quot;&gt;name&lt;/span&gt;: &lt;span style=&quot;color: #ce9178;&quot;&gt;ingress&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 18px;&quot;&gt;&lt;span style=&quot;color: #ce9178;&quot;&gt;&amp;nbsp; &amp;nbsp; [...]&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 18px;&quot;&gt;&lt;div style=&quot;line-height: 18px;&quot;&gt;&amp;nbsp; - &lt;span style=&quot;color: #569cd6;&quot;&gt;name&lt;/span&gt;: &lt;span style=&quot;color: #ce9178;&quot;&gt;secret&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 18px;&quot;&gt;&lt;span style=&quot;color: #ce9178;&quot;&gt;&amp;nbsp; &amp;nbsp; [...]&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 18px;&quot;&gt;&lt;div style=&quot;line-height: 18px;&quot;&gt;&lt;div&gt;&amp;nbsp; - &lt;span style=&quot;color: #569cd6;&quot;&gt;name&lt;/span&gt;: &lt;span style=&quot;color: #ce9178;&quot;&gt;database&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;&amp;nbsp; &amp;nbsp; base&lt;/span&gt;:&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; apiVersion&lt;/span&gt;: &lt;span style=&quot;color: #ce9178;&quot;&gt;mysql.sql.crossplane.io/v1alpha1&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; kind&lt;/span&gt;: &lt;span style=&quot;color: #ce9178;&quot;&gt;Database&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; metadata&lt;/span&gt;:&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; name&lt;/span&gt;: &lt;span style=&quot;color: #ce9178;&quot;&gt;example-db&lt;/span&gt; &lt;span style=&quot;color: #6a9955;&quot;&gt;# patch this&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; spec&lt;/span&gt;: {}&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="8mNeVheC6rkzySwEhIPX-18">
@@ -42,11 +42,11 @@
         <mxCell id="8mNeVheC6rkzySwEhIPX-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#B266FF;" edge="1" parent="1" source="8mNeVheC6rkzySwEhIPX-12" target="8mNeVheC6rkzySwEhIPX-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8mNeVheC6rkzySwEhIPX-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;fontColor=#B266FF;" edge="1" parent="1" source="8mNeVheC6rkzySwEhIPX-12" target="8mNeVheC6rkzySwEhIPX-21">
+        <mxCell id="8mNeVheC6rkzySwEhIPX-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;fontColor=#B266FF;entryX=-0.006;entryY=0.168;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="8mNeVheC6rkzySwEhIPX-12" target="8mNeVheC6rkzySwEhIPX-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8mNeVheC6rkzySwEhIPX-27" value="Provider - provider-kubernetes.yaml" style="swimlane;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;swimlaneFillColor=#1E1E1E;" vertex="1" parent="1">
-          <mxGeometry x="1470" y="350" width="350" height="150" as="geometry">
+          <mxGeometry x="1250" y="400" width="350" height="150" as="geometry">
             <mxRectangle x="230" y="-10" width="130" height="23" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -57,7 +57,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8mNeVheC6rkzySwEhIPX-30" value="Provider - provider-sql.yaml" style="swimlane;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;swimlaneFillColor=#1E1E1E;" vertex="1" parent="1">
-          <mxGeometry x="1470" y="550" width="350" height="150" as="geometry">
+          <mxGeometry x="1250" y="630" width="350" height="150" as="geometry">
             <mxRectangle x="230" y="-10" width="130" height="23" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -66,6 +66,21 @@
         </mxCell>
         <mxCell id="8mNeVheC6rkzySwEhIPX-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#B266FF;" edge="1" parent="1" source="8mNeVheC6rkzySwEhIPX-17" target="8mNeVheC6rkzySwEhIPX-31">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8mNeVheC6rkzySwEhIPX-43" value="Developer Perspective" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;fontColor=#B266FF;" vertex="1" parent="1">
+          <mxGeometry x="50" y="-110" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8mNeVheC6rkzySwEhIPX-44" value="Pre-defined Resources" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;fontColor=#B266FF;" vertex="1" parent="1">
+          <mxGeometry x="880" y="-110" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8mNeVheC6rkzySwEhIPX-47" value="" style="line;strokeWidth=2;direction=south;html=1;fontColor=#B266FF;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1670" y="-160" width="10" height="980" as="geometry" />
+        </mxCell>
+        <mxCell id="8mNeVheC6rkzySwEhIPX-48" value="" style="line;strokeWidth=2;direction=south;html=1;fontColor=#B266FF;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="290" y="-160" width="10" height="980" as="geometry" />
+        </mxCell>
+        <mxCell id="8mNeVheC6rkzySwEhIPX-49" value="Infrastructure" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;fontColor=#B266FF;" vertex="1" parent="1">
+          <mxGeometry x="1770" y="-110" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
